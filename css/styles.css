@@ -1,3 +1,7 @@
+:root {
+    --footer-text-color: #f4f4fd;
+}
+
 body {
     font-family: Roboto, sans-serif;
     color: #434455;
@@ -92,7 +96,7 @@ ul {
     background-color: #404bbf;
 }
 
-.features h3 {
+.feature-name {
     color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
@@ -101,7 +105,7 @@ ul {
     text-align: left;
 }
 
-.features p {
+.feature-description {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -119,9 +123,14 @@ ul {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 
-.team-cards h3 {
+.team-card {
+    background-color: #ffffff;
+}
+
+.team-member {
     color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
@@ -129,10 +138,10 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.team-cards p {
-    font-size: 16px;
+.team-role {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-size: 16px;
 }
 
 .footer {
@@ -153,25 +162,26 @@ ul {
 }
 
 .footer-text {
-    color: #ffffff;
+    color: var(--footer-text-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
 .white-logo-part {
-    color: #ffffff;
+    color: #f4f4fd;
 }
 
-.portfolio h2 {
+.portfolio-section-header {
     color: #2e2f42;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 
-.portfolio h3 {
+.portfolio-header {
     color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
@@ -180,7 +190,7 @@ ul {
     text-align: left;
 }
 
-.portfolio p {
+.portfolio-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
