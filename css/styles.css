@@ -12,6 +12,10 @@ ul {
     list-style-type: none;
 }
 
+address {
+    font-style: normal;
+}
+
 .header-logo {
     font-family: Raleway, sans-serif;
     font-size: 18px;
