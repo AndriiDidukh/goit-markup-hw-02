@@ -1,17 +1,18 @@
 body {
     font-family: Roboto, sans-serif;
-    color: #2e2f42;
+    color: #434455;
+    background-color: #ffffff;
 }
 
 ul {
     list-style-type: none;
 }
 
-.logo {
+.header-logo {
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: bold;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
     text-underline-position: from-font;
@@ -24,29 +25,32 @@ ul {
     color: #2e2f42;
 }
 
-.menu a {
+.menu {
     color: #2e2f42;
     font-weight: 500;
     text-decoration: none;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.menu a:hover,
-.menu a:focus,
-.menu a:active {
+.menu:hover,
+.menu:focus,
+.menu:active {
     color: #404bbf;
+}
+
+.addres {
+    font-style: normal;
 }
 
 .contact-info a {
     color: #434455;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
-    font-style: normal;
 }
 
 .contact-info a:hover,
@@ -64,7 +68,7 @@ ul {
     text-align: center;
     font-size: 56px;
     font-weight: bold;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 0.02em;
 }
 
@@ -72,7 +76,7 @@ ul {
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: left;
     text-underline-position: from-font;
@@ -89,16 +93,17 @@ ul {
 }
 
 .features h3 {
+    color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: left;
 }
 
 .features p {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
 }
@@ -108,23 +113,25 @@ ul {
 }
 
 .team-header {
+    color: #2e2f42;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
 }
 
 .team-cards h3 {
+    color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
 .team-cards p {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
@@ -132,8 +139,23 @@ ul {
     background-color: #2e2f42;
 }
 
-.footer p {
+.footer-logo {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.footer-text {
     color: #ffffff;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .white-logo-part {
@@ -141,29 +163,26 @@ ul {
 }
 
 .portfolio h2 {
+    color: #2e2f42;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
 }
 
-.portfolio img {
-    width: 360px;
-    height: 300px;
-}
-
 .portfolio h3 {
+    color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: left;
 }
 
 .portfolio p {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
 }
