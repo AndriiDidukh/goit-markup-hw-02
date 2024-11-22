@@ -12,10 +12,6 @@ ul {
     list-style-type: none;
 }
 
-address {
-    font-style: normal;
-}
-
 .header-logo {
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -48,6 +44,10 @@ address {
     color: #404bbf;
 }
 
+.address {
+    font-style: normal;
+}
+
 .contact-info {
     color: #434455;
     font-weight: 400;
@@ -57,9 +57,9 @@ address {
     text-decoration: none;
 }
 
-.contact-info a:hover,
-.contact-info a:focus,
-.contact-info a:active {
+.contact-info:hover,
+.contact-info:focus,
+.contact-info:active {
     color: #404bbf;
 }
 
